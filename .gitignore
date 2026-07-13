@@ -1,29 +1,47 @@
-### IntelliJ IDEA ###
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iml
+
+# ===========================
+# Build Output
+# ===========================
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
+# ===========================
+# Eclipse
+# ===========================
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+.factorypath
+.apt_generated/
 .springBeans
-.sts4-cache
+.sts4-cache/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# ===========================
+# NetBeans
+# ===========================
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# ===========================
+# VS Code
+# ===========================
 .vscode/
 
-### Mac OS ###
+# ===========================
+# macOS
+# ===========================
 .DS_Store
+
+# ===========================
+# Windows
+# ===========================
+Thumbs.db
+Desktop.ini
