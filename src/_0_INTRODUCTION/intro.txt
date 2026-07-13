@@ -1,0 +1,52 @@
+* why java : java is a high level language, isme seekhna thoda aasan hota hai, mai jis teacher se padhta hu ussey aasani se samaz mein aata hai because iam comfortable with his teaching style
+
+anything under double inverted comma considered as string
+
+int x likhne par memory mein se 4 byte allot ho jaati hai dabba bnane ke liye
+
+POST INCREMENT : current value ko print krne ke baad increase karo  (x++)
+PRE INCREMENT : ohle increase karo phir print karo   (++x)
+
+integer ko integer se divide krne par integer hi aata hai
+double is like a float data type in c language
+
+$ : this symbol is allowed as varriable name
+
+char koi ek hota hai jo ' '  isme hota hai jaise ki a b x c d e f g  h i j k l m n and so on
+but " " jo isme hota hai woh string hota hai aur woh group of characters hota hai
+
+b % a   where b<a then the answer will be b    eg : 7%9 -> 7<9 then the answer will be 7
+a%-b = a%b
+
+#Try with resources#
+Try-with-resources is a feature introduced in Java 7 that ensures resources like Scanner, FileReader, etc., are closed automatically after use. It simplifies resource management and avoids potential memory leaks
+
+
+True || False = True
+True || True = True
+False || True = True
+False || False = False
+
+True && False = False
+True && True = True
+False && True = False
+False && False = False
+
+
+LOOP ki working : check condition -> go inside loop -> INCREMENT
+
+
+In loop while printing AP
+ find last term using a+(n-1)*d  ;
+
+
+ if a number i is a factor of n then n/i is also a factor of n
+ bcox of this u can iterate the loop to "Math.sqrt(n)"
+
+
+ASCII value
+A -> 65    Z -> 90
+a -> 97    z -> 122
+
+
+Pattern Printing mein i -> row ke liye hota hai and j -> column ke liye

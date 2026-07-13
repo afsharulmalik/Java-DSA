@@ -1,0 +1,18 @@
+Interning : for eg agar 2 string same value ko store kiye hua hai
+            jaise String str = "Hello"; & String gtr = "Hello";
+            toh ye 2 alag alag string nahi hai ye dono memory mein ek hi address par store hoga aur call krne tym
+            same address ko point kar dega.
+
+            but ek mein change krne par dusra mein change nahi hoga.
+            it happens to save space.
+
+            but we can also new string as
+            String str = new String("Hello");
+
+  Stings are immutable :- u can't change string if u allocated it once.
+
+
+  ASCII value
+  A -> 65
+  a -> 97
+  0 -> 48

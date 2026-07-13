@@ -1,0 +1,50 @@
+TREE :
+
+
+
+
+
+
+
+
+
+
+ Terminology :-
+  1. Root :- The top most node of the tree.
+  2. Child Node :- The node which is connected to its parent node.
+  3. Parent Node :- The node having some child is called parent node.
+  4. Sibling Node :- The node having same parent node.
+  5. Leaf Node :- The node which doesn't have any child node.
+  6. Internal Node :- The node which is neither leaf node nor root node.
+  7. Ancestor Node :- The node displaying family tree, dada, baap, uska baap.
+  8. Descendant Node :- The child of every root node.
+  9. Level :- It is the number of edges with unique path between a node and a root node. The level of root node is 0.
+  10. Size :- Number of nodes in the tree including root node and leaf node.
+  11. No. of edges :- (size-1)
+  12. Height :- It is the total number of node on the path from the root node to the deepest node in the tree. A tree with only root node has a height of 1.
+  13. Subtree :- It is of 2 types -> Left Subtree, Right Subtree. If the root node is not NULL then the tree T1, T2, T3 are called subtree of R(root)
+
+ Properties of Trees :-
+  1. Traversing in a tree is done by depth first search and breadth first search algorithm.
+  2. It has no loop and no circuit.
+  3. It has no self-loop.
+
+
+  Types of Trees :-
+  1. Generic Trees -> Each node can have any number of child nodes
+  2. Binary Trees -> Each node can have atmost 2 child nodes which are known as left child node or right child node
+  3. Binary Search Trees -> Each node can have atmost 2 child nodes which are known as left child node or right child node
+                            Every node to the left of a node has smaller value and every node to the right of a node has greater value
+  4. AVL Trees -> it is a balanced bts(binary search tress)
+
+
+  Applications of trees Data Structure:-
+  1. Hierarchical data structure
+  2. Searching efficiency
+  3. Sorting
+  4. Dynamic Data
+  5. Efficient insertion and deletion
+  6. Easy to implement
+
+
+

@@ -1,0 +1,75 @@
+  🔴 user defined data type   // main heading hai ye !!!
+
+ name data type
+
+ Object : It is real life entities.
+ Class : It is a blue print for storing object.
+
+ OOPS refer to using objects in programming.
+ Class is user defined blueprint through which objects are created.
+ Objects are instance of class.
+
+ 🔴 Array v/s Class
+ we use array to store similar datatypes in large number but we use class to create object jisme multiple attributes hota hai
+
+ 🔴 Scanner is also a class which is used to take input in the program.
+
+ 🔴 Class in different file
+
+ Agar main function ke andar class define kar rhe hai toh public static nahi use karenge, if main ke bahar bnaa rhe hai to
+ public static use karenge............it's better to make class in the main function............but we can't change the value
+ of attribute directly in the function.
+
+ 🔴 Passing class to function :-
+   we have to declare the class outside the main function.
+   classes are pass by reference. (matlab value ko change kar skteee hai function mein pass karke)
+
+ 🔴 Class in different file -> but they are in same package.
+   eg : StudentClassFiles ek class hai jisko hum sbse phle _01_studentClass mein use kar rhe hai.
+
+   Dusre package mein v use kar skteee hai bss import karna padega.
+
+ 🔴 Some Default Values:- Sirf object create karke chorh dete hai toh usme default values aa jaata hai
+    string mein null , int mein 0, double mein 0.0
+
+ 🔴 Access Modifiers :-
+   1. Public - all packages
+   2. Private - same class mein use kar skteee hai.
+   3. Default - same package mein use kar skteee hai...........agar bahar use karna hai toh saame public lagaaa skteee hai !!!
+
+Ek function aur attribute dono ko dot operator se access kar skteee hai !!
+
+ 🔴 Getters [getName()] and Setters [setName()]  :-
+ Function of a class.
+
+ Getters :- Agar attribute private hai tab v getters ka use karke value ko get kar skteee hai !!
+ Setters :- Agar attribute private hai tab v setters ka use karke value ko set kar skteee hai !!
+ Ye dono ek function hai............isko alag class mein hi define karna padega tabhi access kar skteee hai !!!
+
+
+ 🔴 'this' keyword :- Agar same variable name rakh do tab this keyword ka use kiya jaata hai taaki attribute and datatype
+                       mein computer difference pataaa kar sake.........
+
+ 🔴 Constructor :- A constructor is a special method in a class that is automatically called when an object is created.
+    (Special method that runs automatically when object is created.)
+    💡 Key Points:
+    The constructor has the same name as the class.
+    It doesn’t have a return type (not even void).
+    It runs automatically when you create an object using new.
+
+ 🔴 Final :- Ek attribute mein agar koi value daal diye toh wapas se usko change nahi kar skteee hai
+    eg -  final String schoolName = "Awadhoot Academy."   // isko bss use kar skteee hai display karane ke liye we can't change
+          it. print v karwaa skteee hai but can't change.
+
+ 🔴 Static keyword :-
+
+
+
+ 🔴 Static Function :- If we want to access a function in the class through just classname.function
+
+ 🔴 Four pillars of OOPS :-
+    1. Polymorphism
+    2. Inheritance
+    3. Abstract
+    4. Exception handling
+    5. Interface

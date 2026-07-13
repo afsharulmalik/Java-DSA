@@ -1,0 +1,15 @@
+ 1. Introduction to Arrays
+ 2. Syntax, accessing elements of Arrays
+ 3. Printing Output and Taking Inputs
+ 4. Length operator
+ 5. Basic problems
+ 6. Memory Allocation of Arrays in Java
+ 7. Array and Array List
+
+
+
+
+
+
+
+ Range of int variable is 2^31
