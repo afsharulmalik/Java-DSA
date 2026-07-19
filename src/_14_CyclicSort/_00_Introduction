@@ -1,0 +1,18 @@
+Cyclic sort is an inplace, unstable sorting algorithm primarily used to sort arrays containing numbers within a fixed,
+concecutive range (such as 1 to n or 0 to n)
+
+TC = O(n)             SC = 0(1)
+
+Common intervieww questions :-
+finding a missing number
+detecting duplicate numbers
+first missing positive integer
+
+
+Jab bhi question me ye dikhe:
+
+Missing Number
+Find Duplicate
+Find All Duplicates
+Find Disappeared Numbers
+First Missing Positive
