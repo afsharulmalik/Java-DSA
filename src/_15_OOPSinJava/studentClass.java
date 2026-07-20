@@ -1,7 +1,7 @@
-package OOPSinJava;
+package _15_OOPSinJava;
 
 
-public class _01_studentClass {
+public class studentClass {
     // creating a new data type
 
 

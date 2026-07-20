@@ -1,4 +1,4 @@
-package OOPSinJava;
+package _15_OOPSinJava;
 
 // Robot class outside main
 class Robot {
@@ -11,7 +11,7 @@ class Robot {
     }
 }
 
-public class _02_Constructor {
+public class Constructor {
     public static void main(String[] args) {
         // Create a robot named "Alexa"
         Robot myRobot = new Robot("Alexa"); // Output: "Alexa is ready!"
