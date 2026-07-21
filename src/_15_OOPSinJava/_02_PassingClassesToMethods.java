@@ -16,7 +16,7 @@ public class _02_PassingClassesToMethods {
 
         System.out.print(c.seats);
     }
-    private static void change(Car x){
+    private static void change(Car x){  // here car x is pointing car c 
         x.seats = 2;
     }
 }
