@@ -1,0 +1,15 @@
+
+
+Linked List ka sab kuch hai isme
+
+2nd one :
+display using for loop, while loop
+tc O(n)
+
+3rd one :
+add to tail
+add to head
+delete at head
+maintaining size
+aur v bahut saare hai isme khud dekho
+TC O(1) and SC O(1)
