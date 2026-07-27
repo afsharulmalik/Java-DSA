@@ -1,4 +1,8 @@
 
+//        +-----------+-----------+
+//        |    val    |   next    |
+//        +-----------+-----------+
+
 
 Linked List ka sab kuch hai isme
 

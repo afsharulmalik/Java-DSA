@@ -42,9 +42,6 @@ class Linkedlist {
             return;
         }else{
             head = head.next;
-            if(head == null){ // this is for empty list
-                tail = null;
-            }
         }
         size--;
     }
