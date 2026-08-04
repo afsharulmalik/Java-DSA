@@ -1,6 +1,6 @@
 package _16_LinkedList;
 
-public class _36_DeletionInCircularLLGFG {
+public class _36_GFGDeletionInCircularLL {
 //     Structure of Linked List Node
 class Node {
     int data;

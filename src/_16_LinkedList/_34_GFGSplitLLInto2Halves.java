@@ -2,7 +2,7 @@ package _16_LinkedList;
 import kotlin.Pair;
 
 
-public class _34_SplitLLInto2HalvesGFG {
+public class _34_GFGSplitLLInto2Halves {
 //    Node of a linked list
  class Node {
    int data;

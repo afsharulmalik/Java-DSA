@@ -1,6 +1,6 @@
 package _16_LinkedList;
 
-public class _07_kthFromLLGfg {
+public class _07_GFGkthFromLL {
 
 //     Structure of Linked List Node  ye banaa hua rahega
 class Node {

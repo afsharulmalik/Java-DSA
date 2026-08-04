@@ -1,6 +1,6 @@
 package _16_LinkedList;
 
-public class _33_CircularLLTraversalGFG {
+public class _33_GFGCircularLLTraversal {
 //     Structure of circular linked list node
 class Node {
     int data;

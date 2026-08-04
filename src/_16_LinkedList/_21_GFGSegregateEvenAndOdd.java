@@ -1,6 +1,6 @@
 package _16_LinkedList;
 
-public class _21_SegregateEvenAndOddGFG {
+public class _21_GFGSegregateEvenAndOdd {
 //     Structure of a Linked List Node
 class Node {
     int data;

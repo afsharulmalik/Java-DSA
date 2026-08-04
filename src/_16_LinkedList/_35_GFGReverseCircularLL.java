@@ -1,6 +1,6 @@
 package _16_LinkedList;
 
-public class _35_ReverseCircularLLGFG {
+public class _35_GFGReverseCircularLL {
 
 class Node {
     int data;
