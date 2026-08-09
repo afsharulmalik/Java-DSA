@@ -1,0 +1,23 @@
+FILO or LIFO
+
+Insert top se hoga :- add karna
+Remove top se hoga :- delete krna
+Peek top se hoga :- dekhna is peek
+
+Stack<Integer> st = new Stack<>();
+
+Operations :- this 4 operation is very important for solving stack problems
+push();
+peek();
+pop();
+isEmpty();
+
+
+remove();
+get();
+.........many more
+
+st.pop();  sirf aisa rahega toh ye bss topmost element ko remove kar dega
+sout(st.pop());          ye stack ke topmost element ko print kar dega
+String st = st.pop();    issey stack ka topmost element ko store kar skte hai
+
