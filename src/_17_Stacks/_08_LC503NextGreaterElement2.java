@@ -1,5 +1,5 @@
 package _17_Stacks;
-import java.util.Stack;
+import java.util.*;
 public class _08_LC503NextGreaterElement2 {
     class Solution {
         public int[] nextGreaterElements(int[] nums) {
@@ -10,8 +10,8 @@ public class _08_LC503NextGreaterElement2 {
                 stack.push(nums[i]);
             }
             for(int i=n-1; i>=0; i--){
-                while(stack.size()>0 && nums[i]>=stack.peek()) stack.pop();
-                if(stack.size()==0) nge[i] = -1;
+                while(!stack.isEmpty() && nums[i]>=stack.peek()) stack.pop();
+                if(stack.isEmpty()) nge[i] = -1;
                 else nge[i] = stack.peek();
                 stack.push(nums[i]);
             }
@@ -19,3 +19,7 @@ public class _08_LC503NextGreaterElement2 {
         }
     }
 }
+
+
+//  !stack.isEmpty() :- iska mtlb hai stack empty nahi hai
+//   stack.isEmpty() :- iska mtlb hai stack empty hai
