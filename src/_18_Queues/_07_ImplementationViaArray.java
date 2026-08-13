@@ -2,10 +2,10 @@ package _18_Queues;
 
 public class _07_ImplementationViaArray {
     static class CircularQueue{
-        int[] arr;
-        int size;
-        int front;
-        int rear;
+        private int[] arr;
+        private int size;
+        private int front;
+        private int rear;
         CircularQueue(int capacity){
             arr = new int[capacity];
         }
