@@ -18,4 +18,8 @@ public class _11_GFGFirstNegativeInEveryWindowOfSizeK {
             return ans;
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
