@@ -1,1 +1,6 @@
 a heap is an specialized tree based data structure that satisfies heap property
+
+in java heap follows min heap property by default and max heap ke liye thoda sa extra kaam krna pdta hai
+
+min heap : root element child node se choota rahega
+max heap : root element child node se badaa rahega

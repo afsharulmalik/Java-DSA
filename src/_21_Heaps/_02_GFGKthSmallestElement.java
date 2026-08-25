@@ -1,0 +1,18 @@
+package _21_Heaps;
+import java.util.*;
+public class _02_GFGKthSmallestElement {
+    class Solution {
+        public int kthSmallest(int[] arr, int k) {
+            PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+            for(int ele : arr){
+                pq.add(ele);
+                if(pq.size()>k) pq.remove();
+            }
+            return pq.peek();
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
+}

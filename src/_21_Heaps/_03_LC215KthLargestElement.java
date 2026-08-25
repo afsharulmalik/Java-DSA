@@ -1,0 +1,15 @@
+package _21_Heaps;
+import java.util.*;
+public class _03_LC215KthLargestElement {
+    class Solution {
+        public int findKthLargest(int[] nums, int k) {
+            PriorityQueue<Integer> pq = new PriorityQueue<>(); // min heap
+            for(int ele : nums){
+                pq.add(ele);
+                if(pq.size()>k) pq.remove();
+            }
+            return pq.peek();
+            // return n;
+        }
+    }
+}
