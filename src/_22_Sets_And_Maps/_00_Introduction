@@ -1,0 +1,13 @@
+HashMap ek data structure hai jo data ko key → value pair mein store karta hai.
+HashMap internally hashing use karta hai.
+
+| Operation       | Average |
+| --------------- | ------: |
+| `put()`         |    O(1) |
+| `get()`         |    O(1) |
+| `remove()`      |    O(1) |
+| `containsKey()` |    O(1) |
+
+Key Takeaway :-
+               HashMap = Key ko use karke Value ko efficiently store aur retrieve karna.
+
