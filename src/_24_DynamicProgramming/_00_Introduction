@@ -1,0 +1,27 @@
+Hum roughly is order mein chalenge:
+
+DP kya hoti hai?
+Recursion → DP ka connection
+Memoization (Top-Down)
+Tabulation (Bottom-Up)
+1D DP
+2D DP
+0/1 Knapsack
+Unbounded Knapsack
+Subsequence-based DP
+Grid DP
+String DP
+DP on Trees
+DP + Bitmasking
+Important LeetCode problems
+
+What is Dynamic Programming ?
+
+ans : - Dynamic Programming = Recursion + Repeated Subproblems ko save karna
+DP tab useful hoti hai jab kisi problem mein:-
+Overlapping Subproblems ho
+Optimal Substructure ho
+
+Definition :- Dynamic Programming is a computer science and mathematical technique used
+              to solve complex problems by breaking them down into simpler subproblems,
+              solving each subproblem only once, and storing the results to avoid redundant work.
