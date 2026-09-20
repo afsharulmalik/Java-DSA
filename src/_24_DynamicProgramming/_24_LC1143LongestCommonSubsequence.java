@@ -40,7 +40,7 @@ public class _24_LC1143LongestCommonSubsequence {
 
 
     // dp ka tabulation method
-    public int longestCommonSubsequence(String a, String b){
+    public int LongestCommonSubsequence(String a, String b){
         // isme string builder use karenge coz string pass by value hota hai aur without string builder
         // karenge toh memory limit exceeded ka error de dega
         int m = a.length();
@@ -58,5 +58,21 @@ public class _24_LC1143LongestCommonSubsequence {
             }
         }
         return dp[m-1][n-1];
+    }
+
+
+
+    // dp ka tabulation method Optimal method
+    public int longestCommonSubsequence(String a, String b){
+        int m = a.length();
+        int n = b.length();
+        int[][] dp = new int[m+1][n+1];
+        for(int i=0; i<=m; i++){
+            for(int j=0; j<=n; j++){
+                if(a.charAt(i)==b.charAt(j)) dp[i][j] = 1 + dp[i-1][j-1];
+                else dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1]);
+            }
+        }
+        return dp[m][n];
     }
 }
