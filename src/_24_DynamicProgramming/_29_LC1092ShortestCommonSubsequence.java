@@ -16,7 +16,7 @@ public class _29_LC1092ShortestCommonSubsequence {
                     }
                 }
             }
-            // scs wala kaam yha hoga
+            // scs wala kaam yha hoga  yha backtrack ho rha hai lcs table mein
             StringBuilder ans = new StringBuilder();
             int i=m;
             int j=n;
