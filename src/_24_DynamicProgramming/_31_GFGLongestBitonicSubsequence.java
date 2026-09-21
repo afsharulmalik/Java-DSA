@@ -34,6 +34,7 @@ public class _31_GFGLongestBitonicSubsequence {
 //            }
 //            return ans;
 
+            // upar wala v shi hai ye bss isliye kar rhe hai xoz atleast ek ement chaiye lds and lis mein
             int ans = 0;
             for(int i = 0; i < n; i++) {
                 if(lis[i] > 1 && lds[i] > 1) {
