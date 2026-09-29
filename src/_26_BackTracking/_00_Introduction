@@ -1,0 +1,8 @@
+Choose → Explore → Undo → Try another choice
+
+Backtracking — Definition
+
+Backtracking is an algorithmic technique that systematically explores all possible solutions by making a choice,
+recursively exploring it, and undoing the choice when it leads to an invalid or unsuccessful solution.
+In simple words:
+> Backtracking = Choose → Explore → Undo → Try another choice.
