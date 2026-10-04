@@ -140,3 +140,38 @@ class Solution {
     }
 }
 
+
+
+// dfs wala solution
+
+// main function
+class DFS{
+    private void dfs(int row, int col, char[][] grid, boolean[][] visited){
+        int m = grid.length;
+        int n = grid[0].length;
+        visited[row][col]=true;
+        if(row-1>=0 && grid[row-1][col]=='1' && !visited[row-1][col]) // visited[row-1][col]==false
+            dfs(row-1,col,grid,visited);
+        if(row+1<=m-1 && grid[row+1][col]=='1' && !visited[row+1][col])
+            dfs(row+1,col,grid,visited);
+        if(col-1>=0 && grid[row][col-1]=='1' && !visited[row][col-1])
+            dfs(row,col-1,grid,visited);
+        if(col+1<=n-1 && grid[row][col+1]=='1' && !visited[row][col+1])
+            dfs(row,col+1,grid,visited);
+    }
+    public int numIslands(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int count = 0;
+        boolean[][] visited = new boolean[m][n]; // by default false hai
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j]=='1' && !visited[i][j]){
+                    dfs(i,j,grid,visited);
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+}

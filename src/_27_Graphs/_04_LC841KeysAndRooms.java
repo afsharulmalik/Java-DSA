@@ -28,3 +28,27 @@ public class _04_LC841KeysAndRooms {
         }
     }
 }
+
+
+// dfs wala solution hai ye
+// dfs hai yhaa se
+class DFSs{
+    // dfs hai yhaa se
+    public void dfs(int start, List<List<Integer>> rooms, boolean[] visited){
+        visited[start]=true;
+        for(int ele : rooms.get(start)){
+            if(!visited[ele]) dfs(ele,rooms,visited);
+        }
+    }
+    // main function
+    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+        int n = rooms.size();
+        boolean[] visited = new boolean[n]; // by default false hota hai
+        visited[0]=true; // start yhi se kar rhe hai isiliye phle mark kar liye
+        dfs(0,rooms,visited);
+        for(boolean ele : visited){
+            if(ele == false) return false;
+        }
+        return true;
+    }
+}
