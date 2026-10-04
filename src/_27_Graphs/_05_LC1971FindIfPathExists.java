@@ -42,3 +42,38 @@ public class _05_LC1971FindIfPathExists {
         }
     }
 }
+
+
+// dfs wala solution
+class dFs {
+    private boolean dfs(int start, List<List<Integer>> list, boolean[] visited, int end){
+        if (start == end) return true;
+        visited[start] = true;
+        for (int ele : list.get(start)) {
+            if (!visited[ele]) {
+                if (dfs(ele, list, visited, end)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    public boolean validPath(int n, int[][] edges, int start, int end) {
+        if(start==end) return true;
+        List<List<Integer>> list = new ArrayList<>();
+        for(int i=0; i<n; i++){
+            List<Integer> lists = new ArrayList<>();
+            list.add(lists);
+        }
+        // adjacency list
+        for(int i=0; i< edges.length; i++){
+            int a = edges[i][0];
+            int b = edges[i][1];
+            list.get(a).add(b);
+            list.get(b).add(a);
+        }
+        boolean[] visited = new boolean[n]; // false
+        visited[start] = true;
+        return dfs(start,list,visited,end);
+    }
+}
