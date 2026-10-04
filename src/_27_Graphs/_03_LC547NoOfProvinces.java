@@ -5,16 +5,28 @@ import java.util.Queue;
 
 public class _03_LC547NoOfProvinces {
     class Solution {
-        private void bfs(int i, boolean[] isVisited, int[][] isConnected) {
+        // ye bfs wala method hai
+//        private void bfs(int i, boolean[] isVisited, int[][] isConnected) {
+//            isVisited[i] = true;
+//            Queue<Integer> q = new LinkedList<>();
+//            while(!q.isEmpty()){
+//                int front = q.remove(); // row
+//                for(int j=0; j<isConnected.length; j++){
+//                    if(isConnected[front][j]==1 && isVisited[j]==false){
+//                        q.add(j);
+//                        isVisited[j]=true;
+//                    }
+//                }
+//            }
+//        }
+
+
+        // dfs wala method
+        private void dfs(int i, boolean[] isVisited, int[][] isConnected) {
             isVisited[i] = true;
-            Queue<Integer> q = new LinkedList<>();
-            while(!q.isEmpty()){
-                int front = q.remove(); // row
-                for(int j=0; j<isConnected.length; j++){
-                    if(isConnected[front][j]==1 && isVisited[j]==false){
-                        q.add(j);
-                        isVisited[j]=true;
-                    }
+            for(int j=0; j<isConnected.length; j++){
+                if(isConnected[i][j]==1 && isVisited[j]==false){
+                    dfs(j,isVisited,isConnected);
                 }
             }
         }
@@ -25,7 +37,8 @@ public class _03_LC547NoOfProvinces {
             boolean[] isVisited = new boolean[n];
             for(int i=0; i<n; i++){
                 if(!isVisited[i]){
-                    bfs(i,isVisited,isConnected);
+//                    bfs(i,isVisited,isConnected);
+                    dfs(i,isVisited,isConnected);
                     count++;
                 }
             }
