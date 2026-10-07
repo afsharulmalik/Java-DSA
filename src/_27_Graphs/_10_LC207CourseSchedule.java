@@ -27,7 +27,7 @@ public class _10_LC207CourseSchedule {
             for(int[] pre : prerequisites){
                 int a = pre[0];
                 int b = pre[1];
-                adj.get(b).add(a); // 0->1 hai toh phle 1 phir 0
+                adj.get(b).add(a); // 0->1 hai toh 1 -> 0
             }
             boolean[] visited = new boolean[n];
             boolean[] pathVisited = new boolean[n];
